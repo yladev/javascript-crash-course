@@ -32,3 +32,13 @@ a = a + 1;
 b = b + 5;
 c = c + "String!";
 console.log(a, b, c)
+
+//  Declarations
+var ja;
+var properCamelCase;
+var ad;
+
+// Assignments
+ja = 10;
+properCamelCase = "A String";
+add = 9000;
