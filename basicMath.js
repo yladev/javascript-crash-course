@@ -15,14 +15,4 @@ console.log("this is quotient ->", quotient);
 var remainder = 10 % 3;
 console.log("this is remainder ->", remainder);
 
-// Incrementing Numbers
-var myVar = 87;
-myVar++;
-console.log("this is incrementing number ->", myVar);
-
-// Decrementing Numbers
-var myVar = 11;
-myVar--;
-console.log("this is decrementing number ->", myVar);
-
 
