@@ -1,9 +1,13 @@
 // Incrementing Numbers
 var myVar = 87;
 myVar++;
-console.log("this is incrementing number ->", myVar);
+console.log("this is incrementing number =>", myVar);
 
 // Decrementing Numbers
-var myVar = 11;
-myVar--;
-console.log("this is decrementing number ->", myVar);
+var yourVar = 11;
+yourVar--;
+console.log("this is decrementing number =>", yourVar);
+
+var ourVar = 100;
+ourVar--;
+console.log("this is a decrementing number =>", ourVar);

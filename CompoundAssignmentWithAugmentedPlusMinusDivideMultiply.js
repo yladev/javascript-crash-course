@@ -6,9 +6,9 @@ a += 2;
 b += 6;
 c += 9;
 
-console.log("this is a",a);
-console.log("this is b",b);
-console.log("this is c",c);
+console.log("this is a =>", a);
+console.log("this is b =>", b);
+console.log("this is c =>", c);
 
 //Compound Assignment With Augmented Subtraction
 var d = 1000;
@@ -19,9 +19,9 @@ d -= 500;
 e -= 200;
 f -= 2000;
 
-console.log("this is d",d);
-console.log("this is e",e);
-console.log("this is f",f);
+console.log("this is d =>", d);
+console.log("this is e =>", e);
+console.log("this is f =>", f);
 
 //Compound Assignment With Augmented Multiplication
 var g = 10;
@@ -32,9 +32,9 @@ g *= 5;
 h *= 9;
 i *= 7;
 
-console.log("this is g",g);
-console.log("this is h",h);
-console.log("this is i",i);
+console.log("this is g =>", g);
+console.log("this is h =>", h);
+console.log("this is i =>", i);
 
 //Compound Assignment With Augmented Division
 var j = 9;
@@ -45,6 +45,18 @@ j /= 3;
 k /= 5;
 l /= 10;
 
-console.log("this is j",j);
-console.log("this is k",k);
-console.log("this is l",l);
+console.log("this is j =>", j);
+console.log("this is k =>", k);
+console.log("this is l =>", l);
+
+var m = 10;
+var n = 11;
+var o = 15;
+
+m %= 4;
+n %= 2;
+o %= 8;
+
+console.log("this is m =>", m);
+console.log("this is n =>", n);
+console.log("this is o =>", o);

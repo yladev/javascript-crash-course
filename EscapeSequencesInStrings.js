@@ -13,3 +13,6 @@ Code Output
 
 var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
 console.log(myStr);
+
+var yourStr = "Yan\n\tLinn\nAung"
+console.log(yourStr);

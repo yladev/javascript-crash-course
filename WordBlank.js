@@ -1,11 +1,20 @@
+
+// Word Blank function
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-    //Your code below this line
     var result = "";
     result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb;
-    //Your code above this line
     return result;
 }
 
-//Change the words here to last your function
-console.log(wordBlanks("dog", "big", "ran", "quickly"));
-console.log(wordBlanks("bike", "slow", "flew", "slowly"));
+const appliedFunc = wordBlanks("dog", "big", "ran", "quickly");
+console.log(appliedFunc);
+
+
+
+
+// List Names Function
+function listNames(param1, param2, param3, param4){
+    console.log(param1, param2, param3, param4);
+}
+
+listNames("zaw", "may", "thuta", "yan")
