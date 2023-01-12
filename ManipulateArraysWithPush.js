@@ -1,3 +1,4 @@
+// push()
 var myArray = [["Andrew", 23], ["Jason", 11]];
 myArray.push(["Yan", 17]);
 console.log(myArray);
