@@ -1,4 +1,4 @@
-// shift
+// shift()
 var myArray = ["Lucas", "M", ["Wang"]];
 var removeFromMyArray = myArray.shift();
 console.log("this is manipulate arrays with shift =>", myArray);
