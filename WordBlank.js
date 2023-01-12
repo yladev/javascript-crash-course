@@ -16,6 +16,7 @@ function listNames(param1, param2, param3, param4){
 listNames("zaw", "may", "thuta", "yan")
 
 
+// Adding Three Numbers
 function addNumber(num1, num2, num3) {
     console.log("num1", num1);
     console.log("num2", num2);
