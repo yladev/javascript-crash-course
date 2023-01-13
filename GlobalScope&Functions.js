@@ -1,3 +1,4 @@
+// Declare variable
 var myGlobal = 10;
 
 function fun1() {
