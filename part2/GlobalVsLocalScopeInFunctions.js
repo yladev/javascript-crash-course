@@ -14,5 +14,4 @@ function anotherNames() {
     var names = "Jason Andrew";
     return names;
 }
-console.log("this is my local scope =>", anotherNames());
 console.log("this is my global scope =>", names);

@@ -1,4 +1,4 @@
-console.log("hello world");
+console.log("THIS IS PART ONE OF JAVASCRIPT CRASH COURSE 🚀")
 
 var number = 5; //in-line comment
 

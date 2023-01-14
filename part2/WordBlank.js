@@ -1,4 +1,6 @@
 
+console.log("THIS IS PART TWO OF JAVASCRIPT CRASH COURSE 🚀")
+
 // Word Blank function
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     var result = ""; // empty string
