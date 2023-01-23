@@ -1,4 +1,4 @@
-// Comparision with the Equality Operator
+// Comparison with the Equality Operator
 function testEqual(val) {
     if (val == 10) {
         return "Equal";
@@ -7,7 +7,7 @@ function testEqual(val) {
 }
 console.log("This is Strict Equality Operators =>", testEqual(10));
 
-// Comprassion with the Inequality Operator
+// Comparison with the Inequality Operator
 function result(value) {
     if (value != 400) {
         return true;
@@ -16,7 +16,7 @@ function result(value) {
 }
 console.log("This is Inequality Operators =>", result(400));
 
-// Comparision with the Strict Equality Operator
+// Comparison with the Strict Equality Operator
 /*
 2 === 2 (true)
 2 === '2' (false)
@@ -75,7 +75,7 @@ function logicalAndOperator(e) {
 }
 console.log("This is the logical And operator =>", logicalAndOperator(10));
 
-// Comprassion with the Greater Than Or Equal To Operator
+// Comparison with the Greater Than Or Equal To Operator
 function greaterThanOrEqualToOp(f) {
     if (f >= 200) {
         return false;
@@ -87,7 +87,7 @@ function greaterThanOrEqualToOp(f) {
 }
 console.log("This is the greater or equal to operator =>", greaterThanOrEqualToOp(125));
 
-// Comprassion with the Less Than Operator
+// Comparison with the Less Than Operator
 function lessThanOp(g) {
     if (g < 15) {
         return false;
@@ -99,7 +99,7 @@ function lessThanOp(g) {
 }
 console.log("This is less than operator =>", lessThanOp(20));
 
-// Comprassion with the Less Than Or Equal To Operator
+// Comparison with the Less Than Or Equal To Operator
 function lessThanOrEqualToOp(h) {
     if (h <= 40) {
         return true;
