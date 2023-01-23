@@ -62,3 +62,27 @@ function compareStrictEquality(c, d) {
     return false;
 }
 console.log("This is Compare Strict Equality Operator =>", compareStrictEquality(10, "10"));
+
+// Comparison with the logical And Operator
+function logicalAndOperator(e) {
+    if (e > 100) {
+        return "Over 100";
+    }
+    if (e > 10) {
+        return "Over 10";
+    }
+    return "10 or Under";
+}
+console.log("This is the logical And operator =>", logicalAndOperator(10));
+
+// Comprassion with the Greater Than Or Equal To Operator
+function greaterThanOrEqualTo(f) {
+    if (f >= 200) {
+        return false;
+    }
+    if (f >= 125) {
+        return true;
+    }
+    return "Invalid Number";
+}
+console.log("This is the greater or equal to operator =>", greaterThanOrEqualTo(125));
