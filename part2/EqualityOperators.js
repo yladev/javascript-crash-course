@@ -76,7 +76,7 @@ function logicalAndOperator(e) {
 console.log("This is the logical And operator =>", logicalAndOperator(10));
 
 // Comprassion with the Greater Than Or Equal To Operator
-function greaterThanOrEqualTo(f) {
+function greaterThanOrEqualToOp(f) {
     if (f >= 200) {
         return false;
     }
@@ -85,4 +85,28 @@ function greaterThanOrEqualTo(f) {
     }
     return "Invalid Number";
 }
-console.log("This is the greater or equal to operator =>", greaterThanOrEqualTo(125));
+console.log("This is the greater or equal to operator =>", greaterThanOrEqualToOp(125));
+
+// Comprassion with the Less Than Operator
+function lessThanOp(g) {
+    if (g < 15) {
+        return false;
+    }
+    if (g < 21) {
+        return true;
+    }
+    return "Invalid Number";
+}
+console.log("This is less than operator =>", lessThanOp(20));
+
+// Comprassion with the Less Than Or Equal To Operator
+function lessThanOrEqualToOp(h) {
+    if (h <= 40) {
+        return true;
+    }
+    if (h <= 10) {
+        return false;
+    }
+    return "Invalid Number";
+}
+console.log("This is less than or equal to operator =>", lessThanOrEqualToOp(15));
