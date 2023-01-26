@@ -18,4 +18,4 @@ function switchStatements(val) {
     }
     return answer;
 }
-console.log(switchStatements(3));
+console.log("This is switch statement =>", switchStatements(3));
