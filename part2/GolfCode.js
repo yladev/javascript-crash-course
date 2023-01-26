@@ -1,11 +1,11 @@
 var names = [
-    "Hole-in-one!",
-    "Eagle",
-    "Birdie",
-    "Par",
-    "Bogey",
-    "Double Bogey",
-    "Go Home"
+    "Hole-in-one!", // 0
+    "Eagle", // 1
+    "Birdie", // 2
+    "Par", // 3
+    "Bogey", // 4
+    "Double Bogey", // 5
+    "Go Home" // 6
 ];
 
 function golfScore(par, strokes) {
@@ -26,4 +26,10 @@ function golfScore(par, strokes) {
     }
 }
 
+console.log(golfScore(1, 1));
+console.log(golfScore(6, 4));
 console.log(golfScore(5, 4));
+console.log(golfScore(0, 0));
+console.log(golfScore(6, 7));
+console.log(golfScore(7, 9));
+console.log(golfScore(10, 13));
