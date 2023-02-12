@@ -1,3 +1,5 @@
+console.log("THIS IS PART THREE OF JAVASCRIPT CRASH COURSE 🚀")
+
 var count = 0;
 
 function cc(card) {
@@ -8,7 +10,7 @@ function cc(card) {
         case 5:
         case 6:
             count ++;
-            break
+            break;
         case 10:
         case "J":
         case "Q":
@@ -25,5 +27,10 @@ function cc(card) {
     return count + " " + holdbet;
 }
 
-cc(2); cc('K'); cc(10); cc('K'); cc('A');
+cc(2); 
+cc('K');
+cc(10); 
+cc('K'); 
+cc('A');
+
 console.log(cc(4));
